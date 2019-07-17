@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/khalidaitbellahs/Dev/UHG/TestCompenents/TestCompenents.UITests/TestCompenents.UITests.csproj": {}
+  },
+  "projects": {
+    "/Users/khalidaitbellahs/Dev/UHG/TestCompenents/TestCompenents.UITests/TestCompenents.UITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/khalidaitbellahs/Dev/UHG/TestCompenents/TestCompenents.UITests/TestCompenents.UITests.csproj",
+        "projectName": "TestCompenents.UITests",
+        "projectPath": "/Users/khalidaitbellahs/Dev/UHG/TestCompenents/TestCompenents.UITests/TestCompenents.UITests.csproj",
+        "packagesPath": "/Users/khalidaitbellahs/.nuget/packages/",
+        "outputPath": "/Users/khalidaitbellahs/Dev/UHG/TestCompenents/TestCompenents.UITests/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/khalidaitbellahs/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Local:BaseController xmlns:Local="clr-namespace:TestCompenents.sharedComponents;assembly=sharedComponents"
+             xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestCompenents.sharedComponents.TextField">
+    
+   <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        
+        <StackLayout Orientation="Vertical" Padding="30">
+            <Label x:Name="HeaderLabel" HorizontalOptions="Start"  />
+            <Entry x:Name="TextEntry" />
+            <Label TextColor="Red" x:Name="InvalidTextLabel" IsVisible="false"  />
+        </StackLayout>
+        
+
+    </StackLayout>
+    
+</Local:BaseController>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Class="TestCompenents.MainPage"
+             xmlns:local="clr-namespace:TestCompenents.sharedComponents">
+    <StackLayout>
+        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        
+        
+        <local:TextField Header="Enter Username (min 3, max 8 chars)"
+                                    ValidMode="MinMax"
+                                    Min="3"
+                                    Max="8"
+                                    InvalidText="Sorry, username is not valid"
+                                    Text="{Binding Username, Mode=TwoWay}"
+                                    />
+        
+        <local:TextField Header="Enter Email"
+                                    ValidMode="Email"
+                                    InvalidText="Whoops! invalid email..."
+                                    Text="{Binding Email, Mode=TwoWay}"
+                                    />
+        
+        <local:sharedLabel HorizontalOptions="Center" />
+        <local:sharedButton HorizontalOptions="Center" />
+        
+    </StackLayout>
+</ContentPage>
